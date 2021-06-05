@@ -1,0 +1,13 @@
+div[data-testid="tweet"]+div a[dir="auto"]:not([aria-label]),
+div[data-testid="reply"] span,
+div[data-testid="retweet"] span,
+div[data-testid="unretweet"] span,
+div[data-testid="like"] span,
+div[data-testid="unlike"] span,
+div[data-testid="primaryColumn"] div[data-testid="UserCell"],
+div[data-testid="sidebarColumn"] div[data-testid="UserCell"],
+div[data-testid="sidebarColumn"] [role="region"],
+a[aria-label="ツイートアクティビティを表示"]
+{
+    display: none;
+}
