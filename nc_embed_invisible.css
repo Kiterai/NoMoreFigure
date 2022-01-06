@@ -1,4 +1,11 @@
-.VideoViewCountMeta, .CommentCountMeta, .MylistCountMeta, .CategoryRankMeta, ul.metadata, ul.PlaylistItemContent-metaContainer *, .videoList01 .itemData, :hover .VideoEndScreenRelatedVideosContainer-videoInfoCount
-{
-	display: none !important;
+.VideoViewCountMeta,
+.CommentCountMeta,
+.MylistCountMeta,
+.CategoryRankMeta,
+ul.metadata,
+ul.PlaylistItemContent-metaContainer *,
+.videoList01 .itemData,
+:hover .VideoEndScreenRelatedVideosContainer-videoInfoCount,
+.NC-VideoMediaObject-metaCount {
+  display: none !important;
 }
