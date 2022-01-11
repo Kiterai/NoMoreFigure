@@ -13,7 +13,8 @@ a[href$="/likes"],
     display: none;
 }
 
-[aria-modal="true"] [data-testid="UserCell"]
+[aria-modal="true"] [data-testid="UserCell"],
+[role="group"] [data-testid="UserCell"]
 {
     display: block;
 }
