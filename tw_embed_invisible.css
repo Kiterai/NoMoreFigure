@@ -8,6 +8,7 @@ a[href$="/following"],
 a[href$="/followers"],
 a[href$="/retweets"],
 a[href$="/likes"],
+a[href$="/analytics"] span,
 :not([aria-modal="true"]) [data-testid="UserCell"]
 {
     display: none;
